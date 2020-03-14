@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Personal Style CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Reset CSS
+     <link rel="stylesheet" href="assets/css/reset.css"> -->
+
+    <!--Link for Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    
+    <!--Link to Bootstrap-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!--Link for jQuery CDN-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+
+    <title>Train Scheduler</title>
+</head>
+<body>
+<div class ="container">
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Train Scheduler</h5> <br>
+          <p class="card-text"><ion-icon name="train-outline"></ion-icon>CHOO. CHOO. CHEE-CHEE. CHA-CHA.</p>
+        </div>
+      </div>
+   
+      <br>
+
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">Train Name</th>
+            <th scope="col">Destination</th>
+            <th scope="col">Frequency(min)</th>
+            <th scope="col">Next Arrival</th>
+            <th scope="col">Minutes Away</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Barbaro Train</th>
+            <td>Pennsylvania RR</td>
+            <td> 30 min</td>
+            <td> 10:00</td>
+            <td>30 min</td>
+          </tr>
+          <tr>
+            <th scope="row">Seabiscuit Train</th>
+            <td>Ridgewood Ranch</td>
+            <td>60 min</td>
+            <td>14:00</td>
+            <td>20 min</td>
+          </tr>
+          <tr>
+            <th scope="row">National Velvet Train</th>
+            <td>Enid RR</td>
+            <td>15 min</td>
+            <td>12:15</td>
+            <td>10 min</td>
+          </tr>
+          <tr>
+            <th scope="row">Misty Train</th>
+            <td>Chincoteague Island</td>
+            <td>25 min</td>
+            <td>16:25</td>
+            <td>25 min</td>
+          </tr>
+          <tr>
+            <th scope="row">Black Beauty Train</th>
+            <td>United Kingdom Blvd.</td>
+            <td> 10 min</td>
+            <td>9:30</td>
+            <td>5 min</td>
+          </tr>
+          <tr>
+            <th scope="row">War Admiral Train</th>
+            <td>Hamburg Place</td>
+            <td>45 min</td>
+            <td>15:45</td>
+            <td>45 min</td>
+          </tr>
+          <tr>
+            <th scope="row">Rugged Lark Train</th>
+            <td>Lynn Palm Loop</td>
+            <td>90 min</td>
+            <td>17:30</td>
+            <td>30 min</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+
+    
+      <form class ="form">
+        <div class="form-group">
+          <label for="train">Train Name</label>
+          <input type="text" class="form-control" id="trainName">
+          <small id="trainAdd" class="form-text text-muted">Add Your Train.</small>
+        </div>
+        <div class="form-group">
+          <label for="destination">Destination</label>
+          <input type="text" class="form-control" id="destinationName">
+          <small id="destinationAdd" class="form-text text-muted">Add Your Destination.</small>
+        </div>
+        <div class="form-group">
+            <label for="firstTrain">First Train Time (HH:mm - military time)</label>
+            <input type="text" class="form-control" id="trainTime">
+          </div>
+          <div class="form-group">
+            <label for="frequency">Frequency(min)</label>
+            <input type="text" class="form-control" id="frequencyMin">
+          </div>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+    </div> <!-- /.container -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+    <!-- Link to Train Scheduler Javascript -->
+
+    <script type="text/javascript" src="/assets/javascript/app.js"></script> 
+   
+    <!-- IonIcons CDN -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+</body>
+</html>
