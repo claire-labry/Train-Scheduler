@@ -95,6 +95,6 @@
 
     // // Append the new train row
     
-    $("#table > tbody").append(newTrainRow);
+    $("#train-table > tbody").append(newTrainRow);
 
    }); // end syntax

@@ -12,7 +12,7 @@ body{
         margin:auto;
 }
 
-.card{
+.jumbotron{
     padding: 20px;
     margin: 20px 0px;
 }
@@ -20,8 +20,8 @@ body{
 .table{
     border: 5px black solid;
     padding:10px;
-    background-color:#F24D2A;
-    opacity: 0.9;
+    background-color: grey;
+   
 }
 
 .thead-light{
@@ -32,6 +32,5 @@ body{
     border: 5px black solid;
     padding:10px;
     background-color: seagreen;
-    opacity: 0.9;
     margin-bottom: 20px;
 }
