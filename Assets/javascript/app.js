@@ -86,14 +86,14 @@
     // creating a new train row
 
     var newTrainRow = $("<tr>").append(
-        $("<td>").text(trainName),
-        $("<td>").text(trainDest),
-        $("<td>").text(trainFreq),
-        $("<td>").text(nextArr),
-        $("<td>").text(minAway),
+        $("<th>").text(trainName),
+        $("<th>").text(trainDest),
+        $("<th>").text(trainFreq),
+        $("<th>").text(nextArr),
+        $("<th>").text(minAway),
       );
 
-    // Append the new train row
+    // // Append the new train row
     
     $("#table > tbody").append(newTrainRow);
 
